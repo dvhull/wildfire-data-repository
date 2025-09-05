@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:srv="http://www.isotc211.org/2005/srv"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:gfc="http://www.isotc211.org/2005/gfc"
+                 xmlns:gmi="http://www.isotc211.org/2005/gmi"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns="http://www.isotc211.org/2005/gmd"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd">
+  <gmd:fileIdentifier>
+      <gco:CharacterString>406367be-e939-4c0c-b87b-905a033b0aca</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+      <gco:CharacterString>eng; CAN</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+      <gmd:MD_CharacterSetCode xmlns=""
+                               codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95"
+                               codeListValue="RI_458">utf8; utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode xmlns=""
+                        codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108"
+                        codeListValue="RI_622">dataset; jeuDonnées</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>John Little</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Government of Canada; Natural Resources Canada; Canadian Forest Service / Northern Forestry Centre</gco:CharacterString>
+            <gmd:PT_FreeText>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString xmlns="" locale="#fra">Gouvernement du Canada; Ressources naturelles Canada; Service canadien des forêts / Centre de foresterie du Nord</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+            </gmd:PT_FreeText>
+         </gmd:organisationName>
+         <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Spatial Data Analyst</gco:CharacterString>
+            <gmd:PT_FreeText>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString xmlns="" locale="#fra">Analyste spatial de données</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+            </gmd:PT_FreeText>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>825-510-1166</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">825-510-1166</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:voice>
+                     <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>5320-122nd Street</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">5320, 122e rue</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Edmonton</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Alberta</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Alberta</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>T6H 3S5</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Canada</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Canada</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:country>
+                     <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>john.little@nrcan-rncan.gc.ca</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">john.little@nrcan-rncan.gc.ca</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage gco:nilReason="missing">
+                        <gmd:URL>http://cwfis.cfs.nrcan.gc.ca/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>http</gco:CharacterString>
+                     </gmd:protocol>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+               <gmd:hoursOfService xsi:type="gmd:PT_FreeText_PropertyType" gco:nilReason="missing">
+                  <gco:CharacterString/>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString xmlns="" locale="#fra"/>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:hoursOfService>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode xmlns=""
+                             codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90"
+                             codeListValue="RI_414">pointOfContact; contact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+      <gco:DateTime>2025-05-19T19:18:57</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xsi:type="gmd:PT_FreeText_PropertyType">
+      <gco:CharacterString>North American Profile of ISO 19115:2003 - Geographic information - Metadata</gco:CharacterString>
+      <gmd:PT_FreeText>
+         <gmd:textGroup>
+            <gmd:LocalisedCharacterString xmlns="" locale="#fra">Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées</gmd:LocalisedCharacterString>
+         </gmd:textGroup>
+      </gmd:PT_FreeText>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+      <gco:CharacterString>CAN/CGSB-171.100-2009</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:dataSetURI gco:nilReason="missing">
+      <gco:CharacterString/>
+  </gmd:dataSetURI>
+  <gmd:locale>
+      <gmd:PT_Locale xmlns="" id="fra">
+         <gmd:languageCode>
+            <gmd:LanguageCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116"
+                              codeListValue="fra">French; Français</gmd:LanguageCode>
+         </gmd:languageCode>
+         <gmd:country>
+            <gmd:Country codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117"
+                         codeListValue="CAN">Canada; Canada</gmd:Country>
+         </gmd:country>
+         <gmd:characterEncoding>
+            <gmd:MD_CharacterSetCode codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95"
+                                     codeListValue="RI_458">utf8; utf8</gmd:MD_CharacterSetCode>
+         </gmd:characterEncoding>
+      </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>EPSG:3978</gco:CharacterString>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>http://www.epsg-registry.org</gco:CharacterString>
+               </gmd:codeSpace>
+               <gmd:version gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:version>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>National Fire Database - Agency provided fire locations (point data)</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString xmlns="" locale="#fra">Base nationale de données sur les feux de forêt du Canada - Position des feux de forêt selon les agences</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2025-05-19</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode xmlns=""
+                                             codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87"
+                                             codeListValue="RI_366">creation; création</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2025-05-19</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode xmlns=""
+                                             codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87"
+                                             codeListValue="RI_367">publication; publication</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>John Little</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Government of Canada; Natural Resources Canada; Canadian Forest Service / Northern Forestry Centre</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Gouvernement du Canada; Ressources naturelles Canada; Service canadien des forêts / Centre de foresterie du Nord</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:organisationName>
+                     <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Spatial Data Analyst</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Analyste spatial de données</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>825-510-1166</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">825-510-1166</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:voice>
+                                 <gmd:facsimile gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>5320-122nd Street</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">5320, 122e rue</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Edmonton</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>Alberta</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">Alberta</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>T6H 3S5</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>Canada</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">Canada</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>john.little@nrcan-rncan.gc.ca</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">john.little@nrcan-rncan.gc.ca</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage gco:nilReason="missing">
+                                    <gmd:URL>https://cwfis.cfs.nrcan.gc.ca/</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:protocol>
+                                    <gco:CharacterString>https</gco:CharacterString>
+                                 </gmd:protocol>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:hoursOfService xsi:type="gmd:PT_FreeText_PropertyType" gco:nilReason="missing">
+                              <gco:CharacterString/>
+                              <gmd:PT_FreeText>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString xmlns="" locale="#fra"/>
+                                 </gmd:textGroup>
+                              </gmd:PT_FreeText>
+                           </gmd:hoursOfService>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode xmlns=""
+                                         codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90"
+                                         codeListValue="RI_409">custodian; conservateur</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The Canadian National Fire Database (CNFDB) fire point data is a collection of forest fire locations as provided by Canadian fire management agencies including provinces, territories, and Parks Canada.
+
+The CNFDB can be used for spatial and temporal analyses of landscape-scale fire impacts.
+
+Note that the data contained in the CNFDB are not complete nor are they without error. Not all fires have been mapped, and data accuracy varies due to different mapping techniques. This collection includes only data that has been contributed by the agencies. Data completeness and quality vary among agencies and between years.</gco:CharacterString>
+            <gmd:PT_FreeText>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString xmlns="" locale="#fra">Les données ponctuelles de la Base nationale de données sur les feux renvoient aux positions des feux de forêts fournies par les agences de gestion des feux de forêt, y compris celles des provinces et territoires et Parcs Canada.
+
+La BNDFFC peut donc être utilisée pour l'étude spatiale et temporelle des impacts des feux de forêt à l'échelle du paysage.
+
+Il est à noter que les données contenues dans la BNDFFC ne sont ni exhaustives ni sans erreur. Tous les feux n'ont pas été cartographiés, et l'exactitude des données varie selon les différentes techniques de cartographie. Cette base de données ne contient que les données fournies par les agences. L'exhaustivité et la qualité des données peuvent varier d'une agence et d'une année à l'autre.</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+            </gmd:PT_FreeText>
+         </gmd:abstract>
+         <gmd:status>
+            <gmd:MD_ProgressCode xmlns=""
+                                 codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106"
+                                 codeListValue="RI_596">onGoing; enContinue</gmd:MD_ProgressCode>
+         </gmd:status>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode xmlns=""
+                                                   codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102"
+                                                   codeListValue="RI_539">annually; annuel</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:graphicOverview xlink:role="urn:xml:lang:eng-CAN">
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>https://cwfis.cfs.nrcan.gc.ca/downloads/nfdb/fire_pnt/current_version/NFDB_point_thumbnail.png</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription xsi:type="gmd:PT_FreeText_PropertyType" gco:nilReason="missing">
+                  <gco:CharacterString/>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString xmlns="" locale="#fra"/>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:fileDescription>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:graphicOverview xlink:role="urn:xml:lang:eng-CAN">
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>https://cwfis.cfs.nrcan.gc.ca/downloads/nfdb/fire_pnt/current_version/NFDB_point_thumbnail.png</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>NFDB point thumbnail</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString xmlns="" locale="#fra"/>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:fileDescription>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Forest fires</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString xmlns="" locale="#fra">Incendie de forêt</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode xmlns=""
+                                          codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101"
+                                          codeListValue="RI_528">theme; thème</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Government of Canada Core Subject Thesaurus</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Thésaurus des sujets de base du gouvernement du Canada</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2004</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode xmlns=""
+                                                   codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87"
+                                                   codeListValue="RI_366">creation; création</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2016-07-04</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode xmlns=""
+                                                   codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87"
+                                                   codeListValue="RI_367">publication; publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                              <gco:CharacterString>Government of Canada; Library and Archives Canada</gco:CharacterString>
+                              <gmd:PT_FreeText>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString xmlns="" locale="#fra">Gouvernement du Canada; Bibliothèque et Archives Canada</gmd:LocalisedCharacterString>
+                                 </gmd:textGroup>
+                              </gmd:PT_FreeText>
+                           </gmd:organisationName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode xmlns=""
+                                               codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90"
+                                               codeListValue="RI_409">custodian; conservateur</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+                  <gco:CharacterString>Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)</gco:CharacterString>
+                  <gmd:PT_FreeText>
+                     <gmd:textGroup>
+                        <gmd:LocalisedCharacterString xmlns="" locale="#fra">Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)</gmd:LocalisedCharacterString>
+                     </gmd:textGroup>
+                  </gmd:PT_FreeText>
+               </gmd:useLimitation>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode xmlns=""
+                                          codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107"
+                                          codeListValue="RI_606">license; licence</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode xmlns=""
+                                                  codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109"
+                                                  codeListValue="RI_635">vector; vecteur</gmd:MD_SpatialRepresentationTypeCode>
+         </gmd:spatialRepresentationType>
+         <gmd:language>
+            <gco:CharacterString>eng; CAN</gco:CharacterString>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode xmlns=""
+                                     codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95"
+                                     codeListValue=""/>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:environmentDescription gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:environmentDescription>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="d118192e562">
+                           <gml:beginPosition>1959</gml:beginPosition>
+                           <gml:endPosition>2024</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-141.003</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-52.6174</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>41.6755</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>83.1139</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The CNFDB fire point and polygon data are collected from Canadian fire management agencies including provinces, territories, and Parks Canada. To create the Canada-wide product, the data collected from each agency are projected into a common format and combined with data from other agencies; attribute fields are standardized; agency specific attribute fields are removed; and polygon areas are calculated using GIS.
+
+Note that the data contained in the CNFDB are not complete nor are they without error. Locations are approximate. Not all fires have been mapped, and data accuracy varies due to different mapping techniques. This collection includes only data that has been contributed by the agencies. Data completeness and quality vary among agencies and between years.
+
+For analyses for a single province or territory or for Parks Canada, we suggest you contact the appropriate agency. Links to the agency web sites can be found at http://cwfis.cfs.nrcan.gc.ca/ha/nfdb, or can be found through the Canadian Interagency Forest Fire Centre (CIFFC) website at http://www.ciffc.ca
+
+The database is a large collaborative effort by all Canadian fire agencies. We thank the many individuals who contributed to this effort, including fire crews, field personnel, photo interpreters, pilots, digitizers, and analysts. Compilation of the Canada-wide database was partially supported by the Canadian government programs of ENFOR (ENergy from the FORest), the Program on Energy Research and Development, the Climate Change Action Fund, and Action Plan 2000.
+
+When using these data for mapping activities and analysis, research, evaluation or display, please acknowledged the source using the following citation: Canadian Forest Service. Canadian National Fire Database – Agency Fire Data. Natural Resources Canada, Canadian Forest Service, Northern Forestry Centre, Edmonton, Alberta. http://cwfis.cfs.nrcan.gc.ca/en_CA/nfdb.
+
+The NFDB points include data for the following agencies and years:
+BC 1950-2024;
+AB 1959-2024;
+SK 1959-2024;
+MB 1959-2024;
+ON 1959-2024;
+QC 1959-2024;
+NS 1960-2024;
+NB 1980-2024;
+NL 1955-2024;
+YT 1946-2024;
+NT 1959-2024;
+PEI 2018-2024;
+PC 1946-2024;
+
+Publications:
+The following papers present analyses of these data:
+
+Hanes, C.C.; Wang, X.; Jain, P.; Parisien, M.-P.; Little, J.M.; Flannigan, M.D. 2019. Fire-regime changes in Canada over the last half century. Canadian Journal of Forest Research 49: 256-269. doi: 10.1139/cjfr-2018-0293. 
+
+Burton, P.J.; Parisien, M.-A.; Hicke, J.A.; Hall, R.J.; Freeburn, J.T. 2008. Large fires as agents of ecological diversity in the North American boreal forest. International Journal of Wildland Fire 17(6): 754-767.
+
+Parisien, M.A.; Peters, V.S; Wang, Y.; Little, J.M.; Bosch, E.M.; Stocks, B.J. 2006. Spatial patterns of forest fires in Canada 1980–1999. International Journal of Wildland Fire 15:361–374.
+
+Stocks, B.J.; Mason, J.A.; Todd, J.B.; Bosch, E.M.; Wotton, B.M.; Amiro, B.D.; Flannigan, M.D.;Hirsch, K.G.; Logan, K.A.; Martell, D.L.; Skinner, W.R. 2003. Large forest fires in Canada, 1959–1997. Journal of Geophysical Research 108, D1: FFR5, 1-12. doi:10.1029/2001 JD000484.
+
+Amiro, B.D.; Todd, J.B.; Wotton, B.M.; Logan, K.A.; Flannigan, M.D.; Stocks, B.J.; Mason, J.A.; Martell, D.L.; Hirsch, K.G. 2001. Direct carbon emissions from Canadian forest fires, 1959 to 1999. Canadian Journal of Forest Research 31:512–525.</gco:CharacterString>
+            <gmd:PT_FreeText>
+               <gmd:textGroup>
+                  <gmd:LocalisedCharacterString xmlns="" locale="#fra">Les données ponctuelles et polygonales de la BNDFFC sont recueillies auprès des agences de gestion des feux de forêt, y compris celles des provinces et territoires et Parcs Canada. Pour obtenir un produit pancanadien, les données recueillies auprès de chaque agence sont projetées dans un format commun et combinées aux données d'autres agences, les champs d'attributs sont normalisés, les champs d'attributs propres à une agence sont supprimés, et la superficie des polygones est calculée à l'aide d'un SIG.
+
+Il est à noter que les données contenues dans la BNDFFC ne sont ni exhaustives ni sans erreur. Tous les feux n'ont pas été cartographiés, et l'exactitude des données varie selon les différentes techniques de cartographie. Cette base de données ne contient que les données fournies par les agences. L'exhaustivité et la qualité des données peuvent varier d'une agence et d'une année à l'autre.
+
+Pour obtenir des analyses à l'égard d'une province ou d'un territoire unique ou de Parcs Canada, communiquez avec l'agence responsable appropriée. Les liens aux sites Web des agences sont disponibles via le Centre interservices des feux de forêt du Canada (CIFFC) - http://www.ciffc.ca.
+
+Cette base de données est le fruit d'un travail de collaboration entre tous les organismes de lutte contreles incendies du Canada. Nous remercions tous ceux qui ont contribué au projet, notamment les équipes de pompiers, le personnel de terrain, le personnel de photo-interprétation, les pilotes, les responsables de la numérisation et les analystes. Le travail de compilation de cette base de données à l'échelle canadienne est appuyé par les programmes canadiens ENFOR (Programme de l'énergie forestière) et PERD (Programme de recherche et développement énergétique) et par le Fonds d'action sur le changement climatique et le Plan d'action 2000.
+
+Lors que vous utilisez les données à des fins de cartographie, d'analyse, de recherche, d'évaluation ou d'affichage, veuillez citer la source de la façon suivante : Service canadien des forêts. Base nationale de données sur les feux de forêt du Canada – Données sur les feux des Agences. Ressources naturelles Canada, Service canadien des forêts, Centre de foresterie du Nord, Edmonton, Alberta. http://cwfis.cfs.nrcan.gc.ca/fr_CA/nfdb.
+
+BC 1950-2024;
+AB 1959-2024;
+SK 1959-2024;
+MB 1959-2024;
+ON 1959-2024;
+QC 1959-2024;
+NS 1960-2024;
+NB 1980-2024;
+NL 1955-2024;
+YT 1946-2024;
+NT 1959-2024;
+PEI 2018-2024;
+PC 1946-2024;
+
+Publications :
+Les documents suivant présentent des analyses de ces données :
+
+Hanes, C.C.; Wang, X.; Jain, P.; Parisien, M.-P.; Little, J.M.; Flannigan, M.D. 2019. Fire-regime changes in Canada over the last half century. Canadian Journal of Forest Research 49: 256-269. doi: 10.1139/cjfr-2018-0293.
+
+Burton, P.J.; Parisien, M.-A.; Hicke, J.A.; Hall, R.J.; Freeburn, J.T. 2008. Large fires as agents of ecological diversity in the North American boreal forest. International Journal of Wildland Fire 17(6): 754-767.
+
+Parisien, M.A.; Peters, V.S; Wang, Y.; Little, J.M.; Bosch, E.M.; Stocks, B.J. 2006. Spatial patterns of forest fires in Canada 1980–1999. International Journal of Wildland Fire 15:361–374.
+
+Stocks, B.J.; Mason, J.A.; Todd, J.B.; Bosch, E.M.; Wotton, B.M.; Amiro, B.D.; Flannigan, M.D.;Hirsch, K.G.; Logan, K.A.; Martell, D.L.; Skinner, W.R. 2003. Large forest fires in Canada, 1959–1997. Journal of Geophysical Research 108, D1: FFR5, 1-12. doi:10.1029/2001 JD000484.
+
+Amiro, B.D.; Todd, J.B.; Wotton, B.M.; Logan, K.A.; Flannigan, M.D.; Stocks, B.J.; Mason, J.A.; Martell, D.L.; Hirsch, K.G. 2001. Direct carbon emissions from Canadian forest fires, 1959 to 1999. Canadian Journal of Forest Research 31:512–525.</gmd:LocalisedCharacterString>
+               </gmd:textGroup>
+            </gmd:PT_FreeText>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>SHP</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>ESRI shapefiles geospatial vector data format</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>WMS</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>PNG, PNG8, JPEG, GIF, TIFF, TIFF8, GeoTIFF, GeoTIFF8, SVG, PDF, GeoRSS, KML, KMZ, OpenLayers</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>John Little</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Government of Canada; Natural Resources Canada; Canadian Forest Service / Northern Forestry Centre</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Gouvernement du Canada; Ressources naturelles Canada; Service canadien des forêts / Centre de foresterie du Nord</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:organisationName>
+                     <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Spatial Data Analyst</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Analyste spatial de données</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>825-510-1166</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">825-510-1166</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:voice>
+                                 <gmd:facsimile gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>5320-122nd Street</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">5320, 122e rue</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Edmonton</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>Alberta</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">Alberta</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>T6H 3S5</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>Canada</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">Canada</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                                    <gco:CharacterString>john.little@nrcan-rncan.gc.ca</gco:CharacterString>
+                                    <gmd:PT_FreeText>
+                                       <gmd:textGroup>
+                                          <gmd:LocalisedCharacterString xmlns="" locale="#fra">john.little@nrcan-rncan.gc.ca</gmd:LocalisedCharacterString>
+                                       </gmd:textGroup>
+                                    </gmd:PT_FreeText>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage gco:nilReason="missing">
+                                    <gmd:URL>https://cwfis.cfs.nrcan.gc.ca/</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:protocol>
+                                    <gco:CharacterString>https</gco:CharacterString>
+                                 </gmd:protocol>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:hoursOfService xsi:type="gmd:PT_FreeText_PropertyType" gco:nilReason="missing">
+                              <gco:CharacterString/>
+                              <gmd:PT_FreeText>
+                                 <gmd:textGroup>
+                                    <gmd:LocalisedCharacterString xmlns="" locale="#fra"/>
+                                 </gmd:textGroup>
+                              </gmd:PT_FreeText>
+                           </gmd:hoursOfService>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode xmlns=""
+                                         codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90"
+                                         codeListValue="RI_412">distributor; distributeur</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://cwfis.cfs.nrcan.gc.ca/datamart/download/nfdbpnt</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>HTTPS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>National Fire Database fire point data</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Données ponctuelles de la Base nationale de données sur les feux</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:name>
+                     <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Dataset;SHP;eng,fra</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Données;SHP;eng,fra</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:unitsOfDistribution gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:unitsOfDistribution>
+               <gmd:transferSize>
+                  <gco:Real/>
+               </gmd:transferSize>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://cwfis.cfs.nrcan.gc.ca/datamart/download/nfdbpnt</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>HTTPS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>National Fire Database fire point data (large fires only ≥ 200 hectares)</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Données ponctuelles de la Base nationale de données sur les feux (les grands incendies ≥ 200 hectares)</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:name>
+                     <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Dataset;SHP;eng,fra</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Données;SHP;eng,fra</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://cwfis.cfs.nrcan.gc.ca/ha/nfdb?type=pnt&amp;year=9999</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>HTTPS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Canadian Wildland Fire Information System</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Système canadien d'information sur les feux de végétation</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:name>
+                     <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Supporting Document;HTML;eng,fra</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Document de soutien;HTML;eng,fra</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://cwfis.cfs.nrcan.gc.ca/downloads/nfdb/fire_pnt/current_version/NFDB_point_shapefile_metadata.pdf</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>HTTPS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>NFDB_point_shapefile_metadata.pdf (Available only in English)</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">NFDB_point_shapefile_metadata.pdf  (Seulement disponible en Anglais)</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:name>
+                     <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Supporting Document;PDF;eng,fra</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Document de soutien;PDF;eng,fra</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://cwfis.cfs.nrcan.gc.ca/downloads/nfdb/fire_pnt/current_version/NFDB_point_stats.zip</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>HTTPS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>National Fire Database fire point data – Summary Stats</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Données ponctuelles de la Base nationale de données sur les feux – Statistiques sommaires</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:name>
+                     <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Dataset;XLS;eng,fra</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Données;XLS;eng,fra</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine xlink:role="urn:xml:lang:eng-CAN">
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://cwfis.cfs.nrcan.gc.ca/geoserver/ows?request=GetCapabilities&amp;service=WMS&amp;version=1.3.0&amp;layers=public:NFDB_point_1980to2022&amp;legend_format=image%2Fpng&amp;feature_info_type=text%2Fplain</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>NFDB_point</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">NFDB_point</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:name>
+                     <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Web Service;WMS;eng</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Service Web;WMS;eng</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine xlink:role="urn:xml:lang:fra-CAN">
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://cwfis.cfs.nrcan.gc.ca/geoserver/ows?request=GetCapabilities&amp;service=WMS&amp;version=1.3.0&amp;layers=public:NFDB_point_1980to2022&amp;legend_format=image%2Fpng&amp;feature_info_type=text%2Fplain</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>NFDB_point</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">NFDB_point</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:name>
+                     <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>Web Service;WMS;fra</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                           <gmd:textGroup>
+                              <gmd:LocalisedCharacterString xmlns="" locale="#fra">Service Web;WMS;fra</gmd:LocalisedCharacterString>
+                           </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+</gmd:MD_Metadata>
