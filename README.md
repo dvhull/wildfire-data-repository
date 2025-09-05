@@ -4,7 +4,7 @@ This repository provides a **Makefile-based workflow** to fetch and organize cor
 
 It ensures that large binary data files are not tracked in Git while keeping a reproducible folder structure for research and analysis.
 
-# Requirements 
+## Requirements 
 
 On Linux and macOS, make is typically installed by default.
 
