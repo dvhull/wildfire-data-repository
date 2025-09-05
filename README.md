@@ -6,9 +6,9 @@ It ensures that large binary data files are not tracked in Git while keeping a r
 
 ## 🛠️ Requirements 
 
-On Linux and macOS, make is typically installed by default.
+On Linux and macOS, `make` is typically installed by default.
 
-**On Windows, make is not included.**
+**On Windows, `make` is not included.**
 
 Recommended: Install Windows Subsystem for Linux (WSL) to run the repository in a Linux environment without leaving Windows.
 
