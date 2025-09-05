@@ -25,8 +25,8 @@ README.md
 - `make large_fires` → Downloads **NFDB_point_large_fires.zip**.  
 
 ### 🔹 FWI (Fire Weather Index Grids)
-- `make fwi-on DATE=YYYYMMDD` → Fetches a recent daily FWI grid (only available for the last few days).  
-- `make fwi-batch` → Downloads multiple specified daily grids.  
+- `make fwi-on DATE=YYYYMMDD` → Fetches a recent daily FWI grid (only available for recent days on website).  
+- `make fwi-batch` → Downloads multiple specified daily grids. (only available for recent days on website). 
 - `make fwi-archive DATE=YYYYMMDD` → Fetches reproducible archived GeoTIFFs from the **CWFIS WCS API**.  
 
 ### 🔹 NBAC (National Burned Area Composite, 30m, 1972–2024)
