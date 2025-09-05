@@ -6,16 +6,16 @@ It ensures that large binary data files are not tracked in Git while keeping a r
 
 ## 📂 Repository Structure
 
+```text
 wildfire-datasets/
   raw-data/
     nfdb/   # National Fire Database (points, large fires)
-    fwi/    # Daily Fire Weather Index
+    fwi/    # Daily Fire Weather Index rasters (CFFDRS)
     nbac/   # National Burned Area Composite
     fuel/   # FBP fuel type grids
 Makefile
 README.md
-
----
+```
 
 ## 📊 Datasets & Makefile Targets
 
