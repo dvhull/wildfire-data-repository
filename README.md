@@ -22,12 +22,12 @@ README.md
 ### 🔹 NFDB (National Fire Database)
 - `make nfdb` → Downloads both NFDB datasets.  
 - `make point` → Downloads **NFDB_point.zip** and extracts shapefiles.  
-- `make large_fires` → Downloads **NFDB_point_large_fires.zip**.  
+- `make large_fires` → Downloads **NFDB_point_large_fires.zip** and extracts shapefiles.  
 
 ### 🔹 FWI (Fire Weather Index Grids)
 - `make fwi-on DATE=YYYYMMDD` → Fetches a recent daily FWI grid (only available for recent days on website).  
 - `make fwi-batch` → Downloads multiple specified daily grids. (only available for recent days on website). 
-- `make fwi-archive DATE=YYYYMMDD` → Fetches reproducible archived GeoTIFFs from the **CWFIS WCS API**.  
+- `make fwi-archive DATE=YYYYMMDD` → Fetches frozen archived GeoTIFFs from the **CWFIS WCS API**.  
 
 ### 🔹 NBAC (National Burned Area Composite, 30m, 1972–2024)
 - `make nbac-30m` → Downloads the **national mosaic (ZIP)** and extracts it.  
