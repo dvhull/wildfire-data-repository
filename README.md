@@ -33,6 +33,8 @@ wildfire-datasets/
 Makefile
 README.md
 ```
+> ⚠️ Note: Large binary files (e.g., `.zip`, `.tif`, `.nc`, `.grib2`) are ignored via `.gitignore`.  
+> Only scripts, metadata, and lightweight text files should be committed to Git.  
 
 ## 📊 Datasets & Makefile Targets
 
