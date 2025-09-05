@@ -38,6 +38,10 @@ README.md
 
 ## 📊 Datasets & Makefile Targets
 
+### 🔹 Master Target
+- `make all DATE=YYYYMMDD` → Fetches **all datasets** (NFDB, FWI archive, NBAC, FBP fuel types) in one command.  
+  - `DATE` specifies the Fire Weather Index archive date. Defaults to the current placeholder in the Makefile. 
+
 ### 🔹 NFDB (National Fire Database)
 - `make nfdb` → Downloads both NFDB datasets.  
 - `make point` → Downloads **NFDB_point.zip** and extracts shapefiles.  
@@ -53,11 +57,7 @@ README.md
 - `make nbac-30m-clean` → Removes only the downloaded ZIP (keeps extracted data).  
 
 ### 🔹 FBP Fuel Types (100m EPSG:3978, 20240527)
-- `make fbp-fueltypes` → Downloads the **FBP fuel types raster**.
-
-### 🔹 Master Target
-- `make all DATE=YYYYMMDD` → Fetches **all datasets** (NFDB, FWI archive, NBAC, FBP fuel types) in one command.  
-  - `DATE` specifies the Fire Weather Index archive date. Defaults to the current placeholder in the Makefile.  
+- `make fbp-fueltypes` → Downloads the **FBP fuel types raster**. 
 
 > ⚠️ Note: Each dataset folder contains a README with dataset-specific details and usage commands.
 
