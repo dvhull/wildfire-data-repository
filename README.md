@@ -1,4 +1,4 @@
-# Wildfire Data Repository 
+# Data Repository 
 
 This repository provides a **Makefile-based workflow** to fetch and organize core Canadian wildfire datasets. 
 
