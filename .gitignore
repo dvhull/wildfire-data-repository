@@ -1,0 +1,56 @@
+# ------------------------
+# OS / Editor junk
+# ------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+__pycache__/
+*.pyc
+*.pyo
+
+# ------------------------
+# GIS Data (NFDB shapefiles)
+# ------------------------
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+*.sbn
+*.sbx
+*.shp.xml
+
+# ------------------------
+# GIS Data (rasters: FWI, NBAC, Fuel grids)
+# ------------------------
+*.tif
+*.tiff
+*.aux.xml
+*.ovr
+*.tfw
+
+# NetCDF / GRIB / HDF (future climate data, etc.)
+*.nc
+*.grb
+*.grib
+*.hdf
+*.h5
+
+# ------------------------
+# Downloads / archives
+# ------------------------
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ------------------------
+# Project-specific: raw datasets
+# ------------------------
+wildfire-datasets/raw-data/*
+!wildfire-datasets/raw-data/.gitkeep
