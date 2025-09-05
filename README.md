@@ -53,7 +53,9 @@ README.md
 - `make nbac-30m-clean` → Removes only the downloaded ZIP (keeps extracted data).  
 
 ### 🔹 FBP Fuel Types (100m EPSG:3978, 20240527)
-- `make fbp-fueltypes` → Downloads the **FBP fuel types raster**.  
+- `make fbp-fueltypes` → Downloads the **FBP fuel types raster**.
+
+> ⚠️ Note: Each dataset folder contains a README with dataset-specific details and usage commands.
 
 ---
 
