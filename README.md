@@ -55,6 +55,10 @@ README.md
 ### 🔹 FBP Fuel Types (100m EPSG:3978, 20240527)
 - `make fbp-fueltypes` → Downloads the **FBP fuel types raster**.
 
+### 🔹 Master Target
+- `make all DATE=YYYYMMDD` → Fetches **all datasets** (NFDB, FWI archive, NBAC, FBP fuel types) in one command.  
+  - `DATE` specifies the Fire Weather Index archive date. Defaults to the current placeholder in the Makefile.  
+
 > ⚠️ Note: Each dataset folder contains a README with dataset-specific details and usage commands.
 
 ---
@@ -62,6 +66,9 @@ README.md
 ## ⚡ Usage Examples
 
 ```bash
+# Fetch everything (NFDB, FWI archive, NBAC, FBP fuel types)
+make all DATE=20230604
+
 # Download NFDB datasets
 make nfdb
 
