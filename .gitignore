@@ -45,12 +45,6 @@ __pycache__/
 *.7z
 
 # =======================================================
-# Project-specific raw data folder
-# =======================================================
-wildfire-datasets/raw-data/*
-!wildfire-datasets/raw-data/.gitkeep
-
-# =======================================================
 # Explicitly keep these (metadata + tabular)
 # =======================================================
 !*.txt
