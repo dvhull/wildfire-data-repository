@@ -26,8 +26,8 @@ README.md
 
 ### 🔹 FWI (Fire Weather Index Grids)
 - `make fwi-archive DATE=YYYYMMDD` → Fetches frozen archived GeoTIFFs from the **CWFIS WCS API**.  
-- `make fwi-on DATE=YYYYMMDD` → Fetches a recent daily FWI grid (only available for recent days on website).  
-- `make fwi-batch` → Downloads multiple specified daily grids. (only available for recent days on website, specified within makefile). 
+- `make fwi-on DATE=YYYYMMDD` → Fetches a recent daily FWI grid (only available for recent LIVE days on website).  
+- `make fwi-batch` → Downloads multiple specified daily grids. (only available for recent LIVE days on website, specified within makefile). 
 
 ### 🔹 NBAC (National Burned Area Composite, 30m, 1972–2024)
 - `make nbac-30m` → Downloads the **national mosaic (ZIP)** and extracts it.  
