@@ -1,6 +1,6 @@
-# ------------------------
+# =======================================================
 # OS / Editor junk
-# ------------------------
+# =======================================================
 .DS_Store
 Thumbs.db
 desktop.ini
@@ -12,45 +12,55 @@ __pycache__/
 *.pyc
 *.pyo
 
-# ------------------------
-# GIS Data (NFDB shapefiles)
-# ------------------------
+# =======================================================
+# Big GIS data formats (ignore these)
+# =======================================================
+
+# Shapefile geometry + sidecars (but keep .prj + .xml metadata)
 *.shp
 *.shx
 *.dbf
-*.prj
 *.cpg
 *.qpj
 *.sbn
 *.sbx
-*.shp.xml
 
-# ------------------------
-# GIS Data (rasters: FWI, NBAC, Fuel grids)
-# ------------------------
+# Raster formats
 *.tif
 *.tiff
-*.aux.xml
 *.ovr
 *.tfw
 
-# NetCDF / GRIB / HDF (future climate data, etc.)
+# Climate / scientific grids
 *.nc
 *.grb
 *.grib
 *.hdf
 *.h5
 
-# ------------------------
-# Downloads / archives
-# ------------------------
+# Archives (usually contain bulk datasets)
 *.zip
 *.tar
 *.tar.gz
 *.7z
 
-# ------------------------
-# Project-specific: raw datasets
-# ------------------------
+# =======================================================
+# Project-specific raw data folder
+# =======================================================
 wildfire-datasets/raw-data/*
 !wildfire-datasets/raw-data/.gitkeep
+
+# =======================================================
+# Explicitly keep these (metadata + tabular)
+# =======================================================
+!*.txt
+!*.csv
+!*.tsv
+!*.json
+!*.xml
+!*.prj
+!*.pdf
+!*.md
+!*.xlsx
+!*.xls
+!*.ods
