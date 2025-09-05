@@ -10,7 +10,14 @@ On Linux and macOS, make is typically installed by default.
 
 **On Windows, make is not included.**
 
-Recommended: Install WSL (Windows Subsystem for Linux) and run the commands in a Linux environment.
+Recommended: Install Windows Subsystem for Linux (WSL) to run the repository in a Linux environment without leaving Windows.
+
+Once inside your WSL terminal, install the required build tools:
+
+sudo apt update
+sudo apt install build-essential -y
+
+This will install make along with other standard development utilities.
 
 ## 📂 Repository Structure
 
