@@ -8,13 +8,9 @@ It ensures that large binary data files are not tracked in Git while keeping a r
 
 On Linux and macOS, make is typically installed by default.
 
-**On Windows, make is not included. You have three options:**
+**On Windows, make is not included.**
 
 Recommended: Install WSL (Windows Subsystem for Linux) and run the commands in a Linux environment.
-
-Install make separately (via Chocolatey
- → choco install make, or Scoop
- → scoop install make).
 
 ## 📂 Repository Structure
 
