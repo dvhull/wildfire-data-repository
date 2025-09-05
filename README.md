@@ -14,8 +14,10 @@ Recommended: Install Windows Subsystem for Linux (WSL) to run the repository in 
 
 Once inside your WSL terminal, install the required build tools:
 
+```bash
 sudo apt update
 sudo apt install build-essential -y
+```
 
 This will install make along with other standard development utilities.
 
