@@ -59,5 +59,10 @@ make nbac-30m
 
 # Download the FBP fuel type raster
 make fbp-fueltypes
+```
 
-
+### Requirements
+On Windows, the simplest way to install make is via Chocolatey
+```bash
+choco install make
+```
