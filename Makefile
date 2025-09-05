@@ -13,15 +13,16 @@ LARGE_ZIP := $(LARGE_DIR)/NFDB_point_large_fires.zip
 POINT_URL := https://cwfis.cfs.nrcan.gc.ca/downloads/nfdb/fire_pnt/current_version/NFDB_point.zip
 LARGE_URL := https://cwfis.cfs.nrcan.gc.ca/downloads/nfdb/fire_pnt/current_version/NFDB_point_large_fires.zip
 
-.PHONY: all nfdb point large_fires clean \
+.PHONY: all nfdb point large_fires clean distclean \
         fwi-on fwi-batch fwi-archive \
         nbac-30m nbac-30m-clean \
         fbp-fueltypes fbp-fueltypes-clean
 
-# Default: get both NFDB datasets
-all: nfdb
+# --- Master target: fetch ALL datasets ---
+# Pick a sensible default DATE; callers can override: make all DATE=20230604
+all: nfdb fwi-archive nbac-30m fbp-fueltypes
 
-# Meta target for both datasets
+# Keep your existing meta-target
 nfdb: point large_fires
 
 # ----- NFDB Point -----
