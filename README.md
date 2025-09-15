@@ -4,6 +4,8 @@ This repository provides a **Makefile-based workflow** to fetch and organize cor
 
 It ensures that large binary data files are not tracked in Git while keeping a reproducible folder structure for research and analysis.
 
+> ⚠️ Note: Large binary files (e.g., `.zip`, `.tif`, `.nc`, `.grib2`) are ignored via `.gitignore` in this repository. Datasets will need to be downloaded using the make commands down below once the repository has been cloned.   
+
 ## 🛠️ Requirements 
 
 On Linux and macOS, `make` is typically installed by default.
