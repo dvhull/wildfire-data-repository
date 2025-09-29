@@ -6,7 +6,7 @@ It ensures that large binary data files are not tracked in Git while keeping a r
 
 > ⚠️ Note: Large binary files (e.g., `.zip`, `.tif`, `.nc`, `.grib2`) are ignored via `.gitignore` in this repository. Datasets will need to be downloaded using the make commands down below once the repository has been cloned.   
 
-## 🛠️ Requirements 
+## Requirements 
 
 On Linux and macOS, `make` is typically installed by default.
 
@@ -23,7 +23,7 @@ sudo apt install build-essential -y
 
 This will install make along with other standard development utilities.
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 wildfire-datasets/
@@ -40,25 +40,25 @@ README.md
 
 ## 📊 Datasets & Makefile Targets
 
-### 🔹 Master Target
+### Master Target
 - `make all DATE=YYYYMMDD` → Fetches **all datasets** (NFDB, FWI archive, NBAC, FBP fuel types) in one command.  
   - `DATE` specifies the Fire Weather Index archive date. Defaults to the current placeholder in the Makefile. 
 
-### 🔹 NFDB (National Fire Database)
+### NFDB (National Fire Database)
 - `make nfdb` → Downloads both NFDB datasets.  
 - `make point` → Downloads **NFDB_point.zip** and extracts shapefiles.  
 - `make large_fires` → Downloads **NFDB_point_large_fires.zip** and extracts shapefiles.  
 
-### 🔹 FWI (Fire Weather Index Grids)
+### FWI (Fire Weather Index Grids)
 - `make fwi-archive DATE=YYYYMMDD` → Fetches frozen archived GeoTIFFs from the **CWFIS WCS API**.  
 - `make fwi-on DATE=YYYYMMDD` → Fetches a recent daily FWI grid (only available for recent LIVE days on website).  
 - `make fwi-batch` → Downloads multiple specified daily grids. (only available for recent LIVE days on website, specified within makefile). 
 
-### 🔹 NBAC (National Burned Area Composite, 30m, 1972–2024)
+### NBAC (National Burned Area Composite, 30m, 1972–2024)
 - `make nbac-30m` → Downloads the **national mosaic (ZIP)** and extracts it.  
 - `make nbac-30m-clean` → Removes only the downloaded ZIP (keeps extracted data).  
 
-### 🔹 FBP Fuel Types (100m EPSG:3978, 20240527)
+### FBP Fuel Types (100m EPSG:3978, 20240527)
 - `make fbp-fueltypes` → Downloads the **FBP fuel types raster**. 
 
 > ⚠️ Note: Each dataset folder contains a README with dataset-specific details and usage commands.
