@@ -65,7 +65,7 @@ README.md
 
 ---
 
-## ⚡ Usage Examples
+## Usage Examples
 
 ```bash
 # Fetch everything (NFDB, FWI archive, NBAC, FBP fuel types)
