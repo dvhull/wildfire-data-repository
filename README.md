@@ -63,7 +63,6 @@ README.md
 
 > ⚠️ Note: Each dataset folder contains a README with dataset-specific details and usage commands.
 > 
-<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/30695eed-91d5-49a1-aae5-73d87ece95fe" />
 
 ---
 
